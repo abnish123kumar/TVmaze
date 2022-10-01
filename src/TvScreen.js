@@ -59,7 +59,7 @@ function TvScreen() {
     <>
     <div >
       <h1>TVmaze</h1>
-      <h1>Search your favouraite shows</h1>
+      <h1>Search your favourite shows</h1>
       <div>
       <input type='radio' name='abnish' onClick={actorName}/>
       <span >Actor</span>
