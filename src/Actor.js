@@ -6,7 +6,7 @@ function Actor(props) {
     <div className="actor-name">
       {
         props.item.map((item2)=>(
-            <div  >
+            <div className='class-box' >
              
            <img
            src={item2?.person?.image?.medium}
