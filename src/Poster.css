@@ -1,0 +1,16 @@
+.hello{
+    padding-top: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    /* width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: inherit; */
+}
+.class-box{
+    width: 250px;
+    height: 340px;
+}

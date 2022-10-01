@@ -1,0 +1,10 @@
+.actor-name{
+    padding-top: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    /* align-items: flex-start;
+    justify-content: center; */
+}
