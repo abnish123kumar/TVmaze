@@ -3,10 +3,11 @@ import {useState} from 'react'
  import './TvScreen.css'
 
 function TvScreen() {
-  const [state,setState] = useState('');
-  const [url, setUrl] = useState('');
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [isAct, setIsAct] = useState(false);
+   const [state,setState] = useState('');
+  
+   const [url, setUrl] = useState('');
+   const [isLoaded, setIsLoaded] = useState(false);
+   const [isAct, setIsAct] = useState(false);
    const [userid, setUserid] = useState(false);
    const [display, setDisplay] = useState('');
    
@@ -24,36 +25,15 @@ function TvScreen() {
         setDisplay('Enter actor name :- ')
         setIsAct(false);
         setState('')
-     
-    //  fetch(urlf)
-    //   .then(resolve=>resolve.json())
-    //   .then(data=>
-    //     console.log(data)
-    //   )
-      //setUrl(`https://api.tvmaze.com/search/people?q=${state}`)
-      
     }
-    // useEffect(() => {
-      
-    //   const delayDebounceFn = setTimeout(() => {
-       
-    //     console.log(state)
-    //     // Send Axios request here
-    //   }, 300)
-  
-    //   return () => clearTimeout(delayDebounceFn)
-    // }, [state])
+    
     function inputbox(e){
-      //e.preventDefault();
-      setState(e.target.value)
-     setTimeout(()=>{
-      
-      setIsLoaded(true);
-     },0)
-      
-      
-      
-    }
+       //e.preventDefault();
+       setState(e.target.value)
+       setTimeout(()=>{
+       setIsLoaded(true);
+      },0)
+   }
 
   return (
     <>

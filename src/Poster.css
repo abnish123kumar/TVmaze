@@ -1,16 +1,31 @@
 .hello{
-    padding-top: 40px;
-    margin-top: 40px;
+    /* padding: 40px; */
     display: flex;
     align-content: space-around;
     flex-wrap: wrap;
+}
+a{
+    color: white;
+}
+   
     /* background-color: aqua; */
     /* width: 180px;
     white-space: nowrap;
     overflow: hidden !important;
     text-overflow: inherit; */
+ 
+img{
+    width: 240px;
+    height: 300px;
+    /* padding-top: 10px; */
+    margin:4px;
+   
 }
 .class-box{
     width: 250px;
     height: 340px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+    
 }
